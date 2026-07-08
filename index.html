@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>Culture Cafe</title>
+    <link rel="stylesheet" href="style.css"
+    main {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+      align-items: center;
+      min-height: calc(100vh - 160px);
+      gap: clamp(32px, 5vw, 80px);
+
+    }
+    .sidebar {
+      width: 100%;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: columnn;
+      align-items:flex-start;
+      gap: 12px;
+    }
   </head>
 
   <body>
     <!-- All content goes here -->
     <div id="all-contents">
+      <div id="all-contents">
+  <nav>
+    <h1>Culture Coffee Cafe</h1>
+    <ul id="nav-ul">
+      <li class="nav-li"><a href="index.html">Home</a></li>
+      <li class="nav-li"><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <main>
+      <!-- nav goes here (TODO 6)-->
+
+      <main>
+        <div class="sidebar">
+              <img class="sidebar-img" src=" https://images.stockcake.com/public/e/e/e/eee39255-9e44-4858-acb9-0a7d72ac1520_large/coffee-and-books-stockcake.jpg  " alt="My image" />
+        </div>
+
+        <div class="content">
+          <h2>Jakara Bachus</h2>
+          <p>Math/Computer Science Teacher</p>
+
+          <div id="interests">
+    <h3>Interests</h3>
+    <ul>
+      <li>Reading</li>
+      <li>Exercise</li>
+      <li>Sleeping</li>
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </main>
+
       
     </div>
   </body>
